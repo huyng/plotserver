@@ -33,6 +33,6 @@ plotting a matplotlib figure
     axes = fig.gca()
     axes.plot([1,2,3,4,1,2,3,4])
 
-    # display plot using webserver at http://0.0.0.0:8080/
-    wpl.show(fig)
+    # display plot using webserver at http://127.0.0.1:9999/
+    wpl.show(fig, host="127.0.0.1", port=9999)
 
