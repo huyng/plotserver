@@ -18,7 +18,7 @@ plotting a pylab environment
     pylab.xlabel("numbers")
     pylab.ylabel("values")
 
-    # display plot using webserver at http://localhost:8080/
+    # display plot using webserver at http://0.0.0.0:8080/
     wpl.show(pylab)
 
 
@@ -33,6 +33,6 @@ plotting a matplotlib figure
     axes = fig.gca()
     axes.plot([1,2,3,4,1,2,3,4])
 
-    # display plot using webserver at http://localhost:8080/
+    # display plot using webserver at http://0.0.0.0:8080/
     wpl.show(fig)
 

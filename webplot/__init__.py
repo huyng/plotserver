@@ -1,7 +1,7 @@
 from flask import Flask, make_response
 from StringIO import StringIO
 
-def show(context, path="/", host="127.0.0.1", port=8080):
+def show(context, path="/", host="0.0.0.0", port=8080):
     """
     Arguments:
 
