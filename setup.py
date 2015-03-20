@@ -1,9 +1,13 @@
 #!/usr/bin/env python
 from setuptools import setup
 
+with open('README.rst', 'r') as f:
+    readme = f.read()
+
 setup( name='webplot',
        version='0.5',
        description='Expose matplotlib figures over http',
+       long_description=readme,
        author='Huy Nguyen',
        author_email='huy@huyng.com',
        packages=['webplot'],
