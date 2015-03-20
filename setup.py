@@ -11,5 +11,5 @@ setup( name='webplotlib',
    )
        
 # to distribute run:
-# python setup.py register sdist bdist_wininst upload
+# python setup.py register sdist  upload
 
