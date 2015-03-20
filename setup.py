@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 from setuptools import setup
 
-setup( name='webplotlib',
+setup( name='webplot',
        version='0.5',
        description='Expose matplotlib figures over http',
        author='Huy Nguyen',
        author_email='huy@huyng.com',
-       packages=['webplotlib'],
+       packages=['webplot'],
        install_requires=["Flask"]
    )
        
