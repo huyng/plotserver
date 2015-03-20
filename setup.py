@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from distutils.core import setup
+from setuptools import setup
 
 setup( name='webplotlib',
        version='0.5',
@@ -7,6 +7,7 @@ setup( name='webplotlib',
        author='Huy Nguyen',
        author_email='huy@huyng.com',
        packages=['webplotlib'],
+       install_requires=["Flask"]
    )
        
 # to distribute run:
