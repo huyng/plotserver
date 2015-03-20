@@ -5,7 +5,7 @@ with open('README.rst', 'r') as f:
     readme = f.read()
 
 setup( name='webplot',
-       version='0.7',
+       version='0.8',
        description='Expose matplotlib figures over http',
        long_description=readme,
        author='Huy Nguyen',

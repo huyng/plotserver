@@ -1,7 +1,15 @@
 webplot
 =======
 
-Expose matplotlib figures over http
+Expose your matplotlib figures over http with 1 line of code
+
+
+Installation
+------------
+
+.. code-block:: shell
+
+    pip install webplot
 
 
 Example usage
