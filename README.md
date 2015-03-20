@@ -1,8 +1,8 @@
-# webplotlib
+# webplot
 Expose matplotlib figures over http
 
 
-Example usage (plotting a pylab environment):
+#### Example usage (plotting a pylab environment):
 
 ```
 import webplot as wpl
@@ -15,7 +15,7 @@ pylab.ylabel("values")
 wpl.show(pylab)
 ```
 
-Example usage (plotting a matplotlib figure):
+#### Example usage (plotting a matplotlib figure):
 
 
 ```

@@ -7,7 +7,8 @@ setup( name='webplot',
        author='Huy Nguyen',
        author_email='huy@huyng.com',
        packages=['webplot'],
-       install_requires=["Flask"]
+       install_requires=["Flask"],
+       url="https://github.com/huyng/webplot"
    )
        
 # to distribute run:
